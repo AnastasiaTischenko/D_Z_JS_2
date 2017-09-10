@@ -4,10 +4,10 @@ function f1(){
     frst = document.getElementById('first').value;
     scnd = document.getElementById('second').value;
     out = document.getElementById('out');
-    if (frst > scnd) {
+    if (Number(frst) > Number(scnd)) {
         out.innerHTML = frst + ">" + scnd;
     }
-    else if (scnd > frst) {
+    else if (Number(scnd) > Number(frst)) {
         out.innerHTML = scnd + ">" + frst;
     }
     else {

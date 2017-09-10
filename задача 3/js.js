@@ -9,6 +9,9 @@ function f1() {
     else if (num >=21 && num <= 64){
         out.innerHTML = "Квартира находится во 2 подъезде";
     }
+    else if (num < 0){
+        out.innerHTML = "Ошибка ввода";
+    }
     else{
         if (num <= 80){
         out.innerHTML = "Квартира находится в 3 подъезде";

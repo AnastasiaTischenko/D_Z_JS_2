@@ -9,8 +9,7 @@ for (var i = 200; i >= 0; i--){
 }
 
 //3
-var s;
-s = 0;
+var s = 0;
 for (var i = 0; i <= 100; i++){
     s += i;
 }
@@ -19,8 +18,8 @@ for (var i = 0; i <= 100; i++){
 //4
 document.getElementById('result').onclick = f1;
 function f1(){
-    var a, b, p;
-    p = 1
+    var a, b;
+    var p = 1;
     a = document.getElementById('num').value;
     b = document.getElementById('degree').value;
     for (var i = 1; i <= b; i++){
@@ -30,8 +29,7 @@ function f1(){
 }
 
 //5
-var k;
-k = 1;
+var k = 1;;
 for (var i = 1; i < 10; i++){
     k = i * 7;
     document.getElementById('out5').innerHTML += "<br>" + i + "*" + "7 = " + k;
